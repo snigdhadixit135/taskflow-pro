@@ -1,0 +1,23 @@
+# Secrets: NEVER commit
+.env
+*.pem
+*.key
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Local database (we re-seed it with a script)
+*.db
+*.sqlite3
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
